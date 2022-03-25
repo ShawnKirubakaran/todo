@@ -4,6 +4,6 @@
 )
 
 <hr>
-Elegant To-Do list created using **HTML, CSS and JQuerry**. Uses local storage funcitonality to store and retrive the list entries.
+Elegant To-Do list created using <b>HTML, CSS</b> and <b>JQuerry</b>. Uses local storage funcitonality to store and retrive the list entries.
 Allows for duplicate entries, but does not allow for empty entries. Current functionalies: Add, Remove, Complete tasks.<br/><br/>
 https://shawnkirubakaran.github.io/todo
