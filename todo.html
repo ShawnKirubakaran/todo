@@ -36,7 +36,11 @@
 
     <script>
         $(document).ready(function() {
-            var todo_list = JSON.parse(localStorage["todo_list"]);
+            if (localStorage["todo_list"] == null) {
+                var todo_list = [];
+            } else {
+                var todo_list = JSON.parse(localStorage["todo_list"]);
+            }
             $("#todolist").empty();
             localStorage["todo_list"] = JSON.stringify(todo_list);
             for (i = 0; i < todo_list.length; i++) {
